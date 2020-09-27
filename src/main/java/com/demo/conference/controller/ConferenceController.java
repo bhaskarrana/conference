@@ -54,6 +54,11 @@ public class ConferenceController {
     @RequestMapping(value="v1/conferences/talks/{speaker}/{talk}", method =  RequestMethod.DELETE)
     
     void removeConference (@PathVariable String speaker, @PathVariable  String talk ){
+	   int x = 10;
+	   if(true)
+		   System.out.println("Hello world'");
+    	   conferenceControllerService.removeTopic(speaker, talk);
+    	   conferenceControllerService.removeTopic(speaker, talk);
     	   conferenceControllerService.removeTopic(speaker, talk);
     	
 
