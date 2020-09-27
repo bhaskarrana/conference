@@ -55,6 +55,8 @@ public class ConferenceController {
     
     void removeConference (@PathVariable String speaker, @PathVariable  String talk ){
     	   conferenceControllerService.removeTopic(speaker, talk);
+    	   conferenceControllerService.removeTopic(speaker, talk);
+    	   conferenceControllerService.removeTopic(speaker, talk);
     	
 
      }
