@@ -59,6 +59,7 @@ public class ConferenceController {
     	   conferenceControllerService.removeTopic(speaker, talk);
     	   conferenceControllerService.removeTopic(speaker, talk);
     	   conferenceControllerService.removeTopic(speaker, talk);
+    	   conferenceControllerService.removeTopic(speaker, talk);
     	
 
      }
